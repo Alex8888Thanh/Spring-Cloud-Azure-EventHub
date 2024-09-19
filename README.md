@@ -1,4 +1,4 @@
-# Spring Cloud Azure EventHub Binder Example
+# Spring Cloud Azure EventHub Binder
 ## Introduction
 Connect to Azure China EventHub via connection string.  
 MessageController receive the post messages and send it to EventHub.  
