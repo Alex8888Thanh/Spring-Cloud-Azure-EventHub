@@ -14,13 +14,3 @@ Note: When add sleuth dependency，will get java.lang.ClassCastException
 `
 Caused by: java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
 `
-
-## How ro Test
-1. Set EventHub configuration in application.properties
-2. mvn spring-boot:run
-3. curl -X POST 'http://localhost:8080/messages?message=Hello%20World'
-
-
-### Reference Documentation
-https://github.com/microsoft/spring-cloud-azure/tree/master/spring-cloud-azure-samples/eventhubs-binder-sample   
-https://docs.microsoft.com/en-us/azure/java/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub
